@@ -4,9 +4,12 @@ Welcome to your new TanStack app!
 
 To run this application:
 
+**you need to install [Bun](https://bun.com/docs/installation)**
+
+# Developing
 ```bash
-npm install
-npm run start
+bun install
+bun run dev
 ```
 
 # Building For Production
@@ -14,7 +17,8 @@ npm run start
 To build this application for production:
 
 ```bash
-npm run build
+bun run build
+bun run deploy
 ```
 
 ## Testing
@@ -22,14 +26,12 @@ npm run build
 This project uses [Vitest](https://vitest.dev/) for testing. You can run the tests with:
 
 ```bash
-npm run test
+bun run test
 ```
 
 ## Styling
 
 This project uses [Tailwind CSS](https://tailwindcss.com/) for styling.
-
-
 
 
 ## Routing
